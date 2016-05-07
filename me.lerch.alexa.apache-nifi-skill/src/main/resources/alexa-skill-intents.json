@@ -1,0 +1,56 @@
+{
+  "intents": [
+    {
+      "intent": "GetProvenance",
+      "slots": [
+        {
+          "name": "Keyword",
+          "type": "AMAZON.US_CITY"
+        }
+      ]
+    },
+    {
+      "intent": "GetTwitterKeywords",
+      "slots": [
+        {
+          "name": "Color",
+          "type": "Colors"
+        }
+      ]
+    },
+    {
+      "intent": "ControlProcessorState",
+      "slots": [
+        {
+          "name": "DesiredProcessorState",
+          "type": "DesiredProcessorStates"
+        },
+        {
+          "name": "ProcessorAlias",
+          "type": "ProcessorAliases"
+        }
+      ]
+    },
+    {
+      "intent": "UpdateTwitterKeywords",
+      "slots": [
+        {
+          "name": "KeywordA",
+          "type": "AMAZON.US_CITY"
+        },
+        {
+          "name": "KeywordB",
+          "type": "AMAZON.US_CITY"
+        },
+        {
+          "name": "KeywordC",
+          "type": "AMAZON.US_CITY"
+        },
+        {
+          "name": "KeywordD",
+          "type": "AMAZON.US_CITY"
+        }
+      ]
+    }
+  ]
+}

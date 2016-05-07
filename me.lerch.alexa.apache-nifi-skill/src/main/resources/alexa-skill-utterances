@@ -1,0 +1,8 @@
+GetProvenance count tweets about {Keyword}
+GetProvenance get tweets about {Keyword}
+UpdateTwitterKeywords look for tweets about {KeywordA} and {KeywordB} and {KeywordC} and {KeywordD}
+UpdateTwitterKeywords get tweets about {KeywordA} and {KeywordB} and {KeywordC} and {KeywordD}
+ControlProcessorState {DesiredProcessorState} processor for {ProcessorAlias}
+ControlProcessorState {DesiredProcessorState} {ProcessorAlias} processor
+GetTwitterKeywords What does the {Color} light mean
+GetTwitterKeywords What do all these lights mean
